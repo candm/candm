@@ -180,11 +180,6 @@
     };
 
 
-    // Loading page
-    var loaderPage = function () {
-        $(".mck-loader").fadeOut("slow");
-    };
-
     var counter = function () {
         $('.js-counter').countTo({
             formatter: function (value, options) {
@@ -220,7 +215,6 @@
         dropdown();
         testimonialCarousel();
         goToTop();
-        loaderPage();
         counter();
         counterWayPoint();
     });
